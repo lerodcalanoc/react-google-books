@@ -34,7 +34,7 @@ class Nav extends Component {
     return (
       <nav className="navbar navbar-expand-lg">
         <Link className="navbar-brand" to="/">
-          Google Books
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Google_Books_logo_2015.PNG"></img>
         </Link>
         <button
           onClick={this.toggleNav}
@@ -49,21 +49,21 @@ class Nav extends Component {
         </button>
         <div className={`${this.state.open ? "" : "collapse "}navbar-collapse`} id="navbarNav">
           <ul className="navbar-nav">
-            <li className="nav-item">
+            <li className="nav-item" class="btn btn-primary btn-sm" id="searchButton">
               <Link
                 onClick={this.toggleNav}
                 className={window.location.pathname === "/" ? "nav-link active" : "nav-link"}
-                to="/"
-              >
+                to="/" id="search">
+
                 Search
               </Link>
             </li>
-            <li className="nav-item">
+            <li className="nav-item" class="btn btn-success btn-sm ml-2" id="searchButton">
               <Link
                 onClick={this.toggleNav}
                 className={window.location.pathname === "/saved" ? "nav-link active" : "nav-link"}
-                to="/saved"
-              >
+                to="/saved" id="saved">
+
                 Saved
               </Link>
             </li>

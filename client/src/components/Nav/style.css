@@ -1,5 +1,24 @@
 .navbar {
   border-radius: 0;
-  background-color: 	#708090;
-  
+  background-color:  #708090;
+}
+
+.navbar-brand {
+  color: #00008B;
+}
+
+img {
+  height: 70px;
+}
+
+#search {
+  color: white;
+}
+
+#saved {
+  color: white;
+}
+
+#searchButton {
+  height: 50px;
 }

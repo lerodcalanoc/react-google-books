@@ -1,10 +1,14 @@
 .jumbotron {
     background-image: url("https://cdn5.vectorstock.com/i/1000x1000/62/64/books-isolated-on-blue-background-vector-20936264.jpg");
     background-repeat: no-repeat;
-    background-position: center; 
-    
+    background-position: center;
+    background-size: cover;
 }
 
 h1 {
     color: #00008B
+}
+
+body {
+    background-color: #D3D3D3
 }
